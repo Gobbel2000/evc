@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "util",
+    "evc2025",
+]
+
+[workspace.dependencies]
+util = { path = "util" }
