@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 num-rational = "0.4.2"
 util.workspace = true
+rustc-hash = "2.1"

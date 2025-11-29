@@ -13,6 +13,7 @@ name = "evc2025"
 version = "0.1.0"
 dependencies = [
  "num-rational",
+ "rustc-hash",
  "util",
 ]
 
@@ -54,6 +55,12 @@ checksum = "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
 dependencies = [
  "autocfg",
 ]
+
+[[package]]
+name = "rustc-hash"
+version = "2.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "357703d41365b4b27c590e3ed91eabb1b663f07c4c084095e60cbed4362dff0d"
 
 [[package]]
 name = "util"
